@@ -65,7 +65,7 @@ jobs:
     strategy:
       matrix:
         app: ['builder', 'viewer']
-    runs-on: self-hosted
+    runs-on: fasterci-arm-large
     steps:
       - name: Check out the repo
         uses: actions/checkout@v3
